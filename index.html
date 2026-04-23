@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Control | Expertos en Control de Plagas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'plaga-red': '#D31F26', // Rojo de alerta/acción
+                        'plaga-black': '#1A1A1A',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-plaga-black font-sans antialiased">
+
+    <div class="bg-plaga-red text-white py-2 px-6 text-center text-xs font-bold uppercase tracking-widest">
+        <i class="fas fa-phone-alt mr-2"></i> Servicio de Emergencia 24/7: 555 123 456
+    </div>
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b-2 border-plaga-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between h-20 items-center">
+
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-plaga-black flex items-center justify-center rounded-full">
+                        <i class="fas fa-shield-virus text-plaga-red text-xl"></i>
+                    </div>
+                    <div class="flex flex-col leading-none">
+                        <span class="text-2xl font-black tracking-tighter uppercase">NEXUS</span>
+                        <span class="text-[10px] font-bold tracking-[0.2em] text-plaga-red uppercase">
+                            Control de Plagas
+                        </span>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex space-x-8 font-bold text-sm uppercase tracking-tight text-zinc-600">
+                    <a href="#about" class="hover:text-plaga-red transition-colors">Sobre nosotros</a>
+                    <a href="#services" class="hover:text-plaga-red transition-colors">Servicios</a>
+                    <a href="#" class="hover:text-plaga-red transition-colors">Contacto</a>
+                    <a href="#" class="hover:text-plaga-red transition-colors">Blog</a>
+                </div>
+
+                <div>
+                    <button
+                        class="bg-plaga-black hover:bg-plaga-red text-white px-6 py-3 text-xs font-black transition-all duration-300 uppercase shadow-[4px_4px_0px_0px_rgba(211,31,38,1)]">
+                        Contáctanos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="relative bg-white pt-16 pb-24 overflow-hidden">
+            <div
+                class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[600px] h-[600px] bg-zinc-50 rounded-full z-0">
+            </div>
+
+            <div class="max-w-7xl mx-auto px-6 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                    <div>
+                        <div class="inline-flex items-center gap-3 mb-6">
+                            <span class="h-[2px] w-8 bg-plaga-red"></span>
+                            <span class="text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">
+                                Salud Ambiental & Desinfección
+                            </span>
+                        </div>
+
+                        <h1 class="text-5xl md:text-6xl font-light text-black leading-tight mb-6">
+                            La excelencia en el <br><span class="font-black italic">control preventivo.</span>
+                        </h1>
+
+                        <p class="text-lg text-zinc-500 max-w-md leading-relaxed mb-10">
+                            Garantizamos espacios higiénicos y seguros mediante protocolos avanzados de control de
+                            plagas. Un enfoque invisible para resultados impecables.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row gap-5">
+                            <button
+                                class="px-10 py-4 bg-plaga-red text-white font-bold uppercase text-xs tracking-widest hover:bg-slate-800 transition-all duration-300 shadow-lg shadow-red-200">
+                                Agendar Inspección
+                            </button>
+                            <button
+                                class="px-10 py-4 bg-white border border-zinc-200 text-black font-bold uppercase text-xs tracking-widest hover:border-black transition-all">
+                                Nuestra Metodología
+                            </button>
+                        </div>
+
+                        <div class="mt-16 grid grid-cols-2 gap-8 border-t border-zinc-100 pt-8">
+                            <div>
+                                <span class="block text-3xl font-black text-black">100%</span>
+                                <span class="text-xs uppercase tracking-tighter text-zinc-400 font-bold">
+                                    Eficacia Certificada
+                                </span>
+                            </div>
+                            <div>
+                                <span class="block text-3xl font-black text-black">24h</span>
+                                <span class="text-xs uppercase tracking-tighter text-zinc-400 font-bold">Respuesta
+                                    Inmediata</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="relative bg-zinc-100 aspect-[4/5] overflow-hidden border border-zinc-200 group">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-zinc-200/50 to-transparent"></div>
+
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <i class="fas fa-hand-sparkles text-white text-9xl drop-shadow-sm"></i>
+                            </div>
+
+                            <div class="absolute top-10 right-0 bg-slate-800 text-white p-6 translate-x-4 shadow-2xl">
+                                <p class="text-[10px] uppercase tracking-[0.2em] font-bold text-zinc-400 mb-1">Protocolo
+                                </p>
+                                <p class="text-lg font-black uppercase tracking-tight">Zero-Pest</p>
+                                <div class="mt-4 h-1 w-full bg-plaga-red"></div>
+                            </div>
+                        </div>
+
+                        <div class="absolute -bottom-4 -left-4 w-24 h-24 bg-[matrix] opacity-20 z-[-1]"
+                            style="background-image: radial-gradient(#DF1C24 2px, transparent 2px); background-size: 12px 12px;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="py-20">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid md:grid-cols-3 gap-16">
+                    <div class="flex flex-col items-start">
+                        <i class="fas fa-user-shield text-4xl text-plaga-red mb-6"></i>
+                        <h4 class="text-xl font-black uppercase mb-3 tracking-tighter">Certificados</h4>
+                        <p class="text-zinc-500 italic">
+                            Personal técnico altamente cualificado y con todas las licencias sanitarias en vigor.
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-start">
+                        <i class="fas fa-leaf text-4xl text-plaga-red mb-6"></i>
+                        <h4 class="text-xl font-black uppercase mb-3 tracking-tighter">Eco-Friendly</h4>
+                        <p class="text-zinc-500 italic">
+                            Productos de baja toxicidad, seguros para mascotas y niños, pero
+                            letales para la plaga.
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-start">
+                        <i class="fas fa-calendar-check text-4xl text-plaga-red mb-6"></i>
+                        <h4 class="text-xl font-black uppercase mb-3 tracking-tighter">Seguimiento</h4>
+                        <p class="text-zinc-500 italic">
+                            No solo eliminamos, hacemos seguimiento para asegurar que no
+                            vuelvan jamás.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="py-24 bg-white overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex flex-col lg:flex-row gap-20 items-start">
+
+                    <div class="lg:w-1/2 relative">
+                        <div
+                            class="relative z-10 border-[1px] border-zinc-200 bg-zinc-50 aspect-square md:aspect-video lg:aspect-square flex items-center justify-center">
+                            <i class="fas fa-users-gear text-zinc-200 text-9xl"></i>
+                            <div
+                                class="absolute -bottom-10 -right-0 md:-right-10 bg-brand-black p-10 text-white shadow-2xl bg-slate-800">
+                                <span class="block text-6xl font-black text-plaga-red mb-2">25</span>
+                                <span class="block text-xs font-bold uppercase tracking-[0.2em] leading-relaxed">
+                                    Años de compromiso <br> con la salud pública
+                                </span>
+                            </div>
+                        </div>
+                        <div class="absolute -top-6 -left-6 w-32 h-32 border-t-4 border-l-4 border-plaga-red z-0"></div>
+                    </div>
+
+                    <div class="lg:w-1/2">
+                        <h2 class="text-xs font-black uppercase tracking-[0.4em] text-plaga-red mb-4">Nuestra Identidad
+                        </h2>
+                        <h3 class="text-4xl md:text-5xl font-black tracking-tighter text-brand-black mb-8 leading-none">
+                            MÁS QUE CONTROL, <br> OFRECEMOS TRANQUILIDAD.
+                        </h3>
+
+                        <div class="space-y-6 text-zinc-600 leading-relaxed">
+                            <p>
+                                Fundada con la misión de elevar los estándares de higiene ambiental, <strong>Nexus
+                                    Control</strong>
+                                se ha consolidado como el referente en soluciones de bioseguridad
+                                para el sector industrial y residencial.
+                            </p>
+                            <p>
+                                No creemos en soluciones genéricas. Nuestro equipo de biólogos y técnicos especialistas
+                                analiza cada caso bajo una óptica científica, aplicando tratamientos que son
+                                <strong>implacables con la plaga</strong> pero respetuosos con el entorno y la salud de
+                                las personas.
+                            </p>
+                        </div>
+
+                        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                            <div class="flex items-start gap-4">
+                                <div class="mt-1">
+                                    <i class="fas fa-check-double text-plaga-red"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-black uppercase tracking-widest text-sm mb-1">Rigor Científico</h4>
+                                    <p class="text-xs text-zinc-500 italic">
+                                        Protocolos basados en evidencia y mejora continua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="mt-1">
+                                    <i class="fas fa-check-double text-plaga-red"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-black uppercase tracking-widest text-sm mb-1">Ética Ambiental</h4>
+                                    <p class="text-xs text-zinc-500 italic">
+                                        Mínimo impacto químico, máxima eficiencia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-12 pt-8 border-t border-zinc-100 flex items-center gap-6">
+                            <div class="w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center">
+                                <i class="fas fa-award text-brand-black"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-black uppercase tracking-tighter">Dirección Técnica</p>
+                                <p class="text-xs text-zinc-400">Nexus Control de Plagas S.L.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="services" class="py-24 bg-zinc-50">
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                    <div class="max-w-2xl">
+                        <h2 class="text-xs font-black uppercase tracking-[0.4em] text-plaga-red mb-4">Nuestra
+                            Especialización</h2>
+                        <h3 class="text-4xl md:text-5xl font-black tracking-tighter text-black leading-none">
+                            SOLUCIONES DE <br> GRADO PROFESIONAL.
+                        </h3>
+                    </div>
+                    <div class="text-zinc-500 max-w-xs text-sm italic border-l-2 border-plaga-red pl-4">
+                        Protocolos certificados diseñados para la eliminación definitiva y prevención técnica de
+                        especies invasoras.
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-200 border border-zinc-200">
+
+                    <div class="bg-white p-10 hover:bg-slate-800 group transition-all duration-500">
+                        <div
+                            class="w-12 h-12 bg-zinc-100 flex items-center justify-center mb-8 group-hover:bg-plaga-red transition-colors">
+                            <i class="fas fa-biohazard text-black group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h4
+                            class="text-xl font-black uppercase tracking-tighter mb-4 text-black group-hover:text-white transition-colors">
+                            Control de <br> Roedores
+                        </h4>
+                        <p class="text-zinc-500 group-hover:text-zinc-400 text-sm leading-relaxed mb-8">
+                            Sistemas de monitorización y exclusión mecánica para almacenes, locales comerciales y zonas
+                            residenciales.
+                        </p>
+                        <a href="#"
+                            class="text-xs font-black uppercase tracking-widest text-plaga-red group-hover:text-white flex items-center gap-2">
+                            Ver Protocolo <i class="fas fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+
+                    <div class="bg-white p-10 hover:bg-slate-800 group transition-all duration-500">
+                        <div
+                            class="w-12 h-12 bg-zinc-100 flex items-center justify-center mb-8 group-hover:bg-plaga-red transition-colors">
+                            <i class="fas fa-bug text-black group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h4
+                            class="text-xl font-black uppercase tracking-tighter mb-4 text-black group-hover:text-white transition-colors">
+                            Control de <br> Insectos
+                        </h4>
+                        <p class="text-zinc-500 group-hover:text-zinc-400 text-sm leading-relaxed mb-8">
+                            Tratamientos de choque y geles de última generación para cucarachas, hormigas y plagas
+                            voladoras.
+                        </p>
+                        <a href="#"
+                            class="text-xs font-black uppercase tracking-widest text-plaga-red group-hover:text-white flex items-center gap-2">
+                            Ver Protocolo <i class="fas fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+
+                    <div class="bg-white p-10 hover:bg-slate-800 group transition-all duration-500">
+                        <div
+                            class="w-12 h-12 bg-zinc-100 flex items-center justify-center mb-8 group-hover:bg-plaga-red transition-colors">
+                            <i
+                                class="fas fa-house-chimney-crack text-black group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h4
+                            class="text-xl font-black uppercase tracking-tighter mb-4 text-black group-hover:text-white transition-colors">
+                            Xilófagos y <br> Termitas
+                        </h4>
+                        <p class="text-zinc-500 group-hover:text-zinc-400 text-sm leading-relaxed mb-8">
+                            Protección estructural mediante sistemas de cebos y barreras químicas para estructuras de
+                            madera.
+                        </p>
+                        <a href="#"
+                            class="text-xs font-black uppercase tracking-widest text-plaga-red group-hover:text-white flex items-center gap-2">
+                            Ver Protocolo <i class="fas fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+
+                    <div class="bg-white p-10 hover:bg-slate-800 group transition-all duration-500">
+                        <div
+                            class="w-12 h-12 bg-zinc-100 flex items-center justify-center mb-8 group-hover:bg-plaga-red transition-colors">
+                            <i class="fas fa-wind text-black group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h4
+                            class="text-xl font-black uppercase tracking-tighter mb-4 text-black group-hover:text-white transition-colors">
+                            Calidad de <br> Aire y Agua
+                        </h4>
+                        <p class="text-zinc-500 group-hover:text-zinc-400 text-sm leading-relaxed mb-8">
+                            Prevención de Legionella y desinfección de conductos de aire en entornos clínicos y
+                            hoteleros.
+                        </p>
+                        <a href="#"
+                            class="text-xs font-black uppercase tracking-widest text-plaga-red group-hover:text-white flex items-center gap-2">
+                            Ver Protocolo <i class="fas fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+
+                    <div class="bg-white p-10 hover:bg-slate-800 group transition-all duration-500">
+                        <div
+                            class="w-12 h-12 bg-zinc-100 flex items-center justify-center mb-8 group-hover:bg-plaga-red transition-colors">
+                            <i class="fas fa-virus-slash text-black group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h4
+                            class="text-xl font-black uppercase tracking-tighter mb-4 text-black group-hover:text-white transition-colors">
+                            Desinfección <br> de Alto Nivel
+                        </h4>
+                        <p class="text-zinc-500 group-hover:text-zinc-400 text-sm leading-relaxed mb-8">
+                            Nebulización en frío para la eliminación de virus y bacterias en zonas de alto tránsito o
+                            riesgo.
+                        </p>
+                        <a href="#"
+                            class="text-xs font-black uppercase tracking-widest text-plaga-red group-hover:text-white flex items-center gap-2">
+                            Ver Protocolo <i class="fas fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+
+                    <div class="bg-white p-10 hover:bg-slate-800 group transition-all duration-500">
+                        <div
+                            class="w-12 h-12 bg-zinc-100 flex items-center justify-center mb-8 group-hover:bg-plaga-red transition-colors">
+                            <i class="fas fa-file-invoice text-black group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h4
+                            class="text-xl font-black uppercase tracking-tighter mb-4 text-black group-hover:text-white transition-colors">
+                            Consultoría y <br> Auditoría
+                        </h4>
+                        <p class="text-zinc-500 group-hover:text-zinc-400 text-sm leading-relaxed mb-8">
+                            Informes técnicos para normativas sanitarias y certificación de espacios libres de plagas.
+                        </p>
+                        <a href="#"
+                            class="text-xs font-black uppercase tracking-widest text-plaga-red group-hover:text-white flex items-center gap-2">
+                            Ver Protocolo <i class="fas fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="grid lg:grid-cols-2 gap-16 items-start">
+
+                    <div>
+                        <h2 class="text-xs font-black uppercase tracking-[0.4em] text-plaga-red mb-4">Contacto Inmediato
+                        </h2>
+                        <h3 class="text-5xl font-black tracking-tighter text-black mb-8 leading-none">
+                            ¿NECESITA UNA <br> INTERVENCIÓN?
+                        </h3>
+                        <p class="text-lg text-zinc-500 mb-12 max-w-md">
+                            Nuestro equipo técnico está operativo las 24 horas para servicios de emergencia. Elija su
+                            vía de contacto preferida:
+                        </p>
+
+                        <div class="space-y-4">
+                            <a href="tel:555123456"
+                                class="group flex items-center justify-between p-8 border border-zinc-100 bg-zinc-50 hover:bg-black transition-all duration-300">
+                                <div class="flex items-center gap-6">
+                                    <div
+                                        class="w-12 h-12 bg-white flex items-center justify-center group-hover:bg-plaga-red transition-colors">
+                                        <i class="fas fa-phone-alt text-black group-hover:text-white"></i>
+                                    </div>
+                                    <div>
+                                        <p
+                                            class="text-[10px] font-black uppercase tracking-widest text-zinc-400 group-hover:text-zinc-500">
+                                            Línea Gratuita 24/7</p>
+                                        <p class="text-2xl font-black text-black group-hover:text-white italic">555 123
+                                            456</p>
+                                    </div>
+                                </div>
+                                <i
+                                    class="fas fa-arrow-right text-plaga-red opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0"></i>
+                            </a>
+
+                            <a href="mailto:central@nexuscontrol.es"
+                                class="group flex items-center justify-between p-8 border border-zinc-100 bg-zinc-50 hover:bg-black transition-all duration-300">
+                                <div class="flex items-center gap-6">
+                                    <div
+                                        class="w-12 h-12 bg-white flex items-center justify-center group-hover:bg-plaga-red transition-colors">
+                                        <i class="fas fa-envelope text-black group-hover:text-white"></i>
+                                    </div>
+                                    <div>
+                                        <p
+                                            class="text-[10px] font-black uppercase tracking-widest text-zinc-400 group-hover:text-zinc-500">
+                                            Consultas Técnicas</p>
+                                        <p class="text-2xl font-black text-black group-hover:text-white italic">
+                                            central@nexuscontrol.es</p>
+                                    </div>
+                                </div>
+                                <i
+                                    class="fas fa-arrow-right text-plaga-red opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <div
+                            class="bg-zinc-100 aspect-square md:aspect-video lg:aspect-square flex items-center justify-center border border-zinc-200 relative overflow-hidden">
+                            <div class="absolute inset-0 opacity-20 bg-[matrix]"
+                                style="background-image: radial-gradient(#000 1px, transparent 1px); background-size: 20px 20px;">
+                            </div>
+
+                            <div class="z-10 text-center">
+                                <div
+                                    class="w-16 h-16 bg-plaga-red text-white flex items-center justify-center rounded-full mb-4 shadow-xl shadow-red-200 animate-pulse">
+                                    <i class="fas fa-location-dot text-2xl"></i>
+                                </div>
+                                <p class="font-black uppercase tracking-tighter text-black">Sede Central Nexus</p>
+                                <p class="text-zinc-500 text-sm">Calle de la Innovación, 45. Santa Cruz de Tenerife.</p>
+                            </div>
+
+                            <button
+                                class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-black text-white px-8 py-3 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-plaga-red transition-colors">
+                                Abrir en Google Maps
+                            </button>
+                        </div>
+
+                        <div
+                            class="absolute -top-4 -right-4 w-24 h-24 bg-plaga-red -z-10 transition-transform group-hover:scale-110">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-20 py-8 border-t border-zinc-100 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="flex items-center gap-4">
+                        <span class="text-plaga-red font-black text-xl">01.</span>
+                        <p class="text-xs font-bold uppercase tracking-widest">Respuesta en menos de 2 horas</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <span class="text-plaga-red font-black text-xl">02.</span>
+                        <p class="text-xs font-bold uppercase tracking-widest">Técnicos de guardia fines de semana</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <span class="text-plaga-red font-black text-xl">03.</span>
+                        <p class="text-xs font-bold uppercase tracking-widest">Cobertura en todo el territorio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-plaga-black text-white py-16 border-t-8 border-plaga-red">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 lg:col-span-2 text-left">
+                    <span class="text-3xl font-black tracking-tighter uppercase block mb-6">NEXUS<span
+                            class="text-plaga-red">.</span></span>
+                    <p class="text-zinc-400 max-w-sm mb-6">
+                        Líderes en control preventivo y correctivo de plagas urbanas. Rapidez, discreción y eficacia
+                        garantizada por contrato.
+                    </p>
+                    <div class="flex gap-4">
+                        <div
+                            class="w-10 h-10 border border-zinc-700 flex items-center justify-center hover:bg-plaga-red transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div
+                            class="w-10 h-10 border border-zinc-700 flex items-center justify-center hover:bg-plaga-red transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-black uppercase mb-6 tracking-widest text-plaga-red">Servicios</h5>
+                    <ul class="text-zinc-400 space-y-3 text-sm font-bold uppercase">
+                        <li><a href="#" class="hover:text-white">Hostelería</a></li>
+                        <li><a href="#" class="hover:text-white">Particulares</a></li>
+                        <li><a href="#" class="hover:text-white">Comunidades</a></li>
+                        <li><a href="#" class="hover:text-white">Industria</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-black uppercase mb-6 tracking-widest text-plaga-red">Contacto</h5>
+                    <p class="text-zinc-400 text-sm font-bold uppercase mb-2">Central:</p>
+                    <p class="text-white text-lg font-black italic mb-4">555 123 456</p>
+                    <p class="text-zinc-400 text-xs">Calle Industria 45, Planta 2<br>28001 Santa Cruz de Tenerife</p>
+                </div>
+            </div>
+            <div
+                class="pt-8 border-t border-zinc-800 text-center text-xs text-zinc-600 font-bold uppercase tracking-widest">
+                © 2026 Nexus Control S.L. - Profesionales en Salud Ambiental
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
